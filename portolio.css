@@ -29,11 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    line-height: 1;
-    background-color:#afb9c5ba;
-    }
-    
-
+	line-height: 1;
+}
 ol, ul {
 	list-style: none;
 }
@@ -50,14 +47,23 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	background-color:#afb9c5ba;
+}
+
+a {
+	display: block;
+	margin: 0 auto;
+	color: white;
+	position: relative;
+	bottom: 10px;
+}
+
 
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
 	background-color: #355070 !important;
 
 }
-
-
-
 
 .navbar-brand {
 	color: white !important;
@@ -67,105 +73,99 @@ table {
 	color: white !important;
 }
 
+.navbar-toggler-icon {
+	color: white !important;
+}
+
 
 
 
 .container {
-    margin-top: 10px;
+	margin-top: 40px;
+	border: 1px solid lightslategray;
+	width: 50%;
+	
 }
 
-
-.row1 {
-    
-    padding: 10px 0px 10px 0px;
-    background-color: #70A288;
-}
-
-
-.col-md-6 {
-    float: left;
-    width: 50%;
-}
-
-
-.row2 {
-    padding: 10px 0px 0px 0px;
-    background-color: white;
-    
-}
-
-
-.row2:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-
-img {
-    max-width: 100%;
-    vertical-align: bottom;
-    display: block;
-    margin: 0 auto;
+h1 {
+	color: white;
+	font-size: 20px;
 }
 
 p {
-    margin-top: 10px;
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: 10px;
 }
 
 
-.about-content {
-    position: relative;
-    left: 300px;
-    bottom: 180px;
-    padding-bottom: 0px;
-}
-
-.row3 {
-    padding: 10px 0px 10px 0px;
-    background-color: white;
-    
-}
-
-footer  {
-    position: fixed; 
-    bottom: 0; 
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-   
-    
-}
-
-footer a {
-    text-decoration: none;
-    color: #355070 
+.col-md-12 {
+	padding: 20px;
+	background-color: #355070;
+	border: 1px solid lightslategray;
 }
 
 
-footer a:active {
-    color: #70A288;
+
+.col-md-6 {
+	float: left;
+	border: 1px solid lightslategray;
+	background-color: #70A288;
 }
 
-#linked-in {
-    transform: scale(2);
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+		
+  }
+
+
+
+@media (max-width: 640px) {
+
+	.container {
+		width: 80%;
+	}
+
+	img {
+		transform: scale(.8);
+	}
+
 }
 
-#github {
-    transform: scale(2);
-    margin-left: 20px;
-}
-
-#facebook {
-    transform: scale(2);
-    margin-left: 20px;
-}
 
 
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
 
-.container {
-    width: 60%;
+    .container {
+		width: 75%;
+		
+	}
+	
+	img {
+		transform: scale(.8);
+	}
+
 }
+
+@media (min-width: 980px) {
+
+    .container {
+		width: 60%;
+		
+	}
+	
 }
+
+
 

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import NavTabs from "./NavTabs";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PortfolioPage from "./pages/Portfolio";
+import Navbar from "./Navbar";
 
 class Portfolio extends Component {
   state = {
-    currentPage: "Home"
+    currentPage: "About"
   };
 
   handlePageChange = page => {
@@ -28,7 +28,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <NavTabs
+        <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />

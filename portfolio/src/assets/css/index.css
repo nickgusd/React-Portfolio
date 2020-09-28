@@ -60,7 +60,8 @@ table {
 
 
 .navbar-brand {
-	color: white !important;
+    color: white !important;
+    margin-left: 0;
 }
 
 .nav-link {

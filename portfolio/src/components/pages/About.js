@@ -4,13 +4,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 
 const About = () => (
-  <div>
-  <Navbar>
-  </Navbar>
-   <AboutContainer>
-   </AboutContainer>
-   <Footer></Footer>
-  </div>
+  <AboutContainer />
 );
 
 export default About;

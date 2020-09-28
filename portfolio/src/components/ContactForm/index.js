@@ -10,12 +10,12 @@ function ContactForm() {
         </header>
         <hr/>
         <div className="form-group">
-            <label for="exampleInputName1">Name</label>
+            <label htmlFor="exampleInputName1">Name</label>
             <input type="name" className="form-control" id="exampleInputName1" placeholder="Nick Guimarais"/>
           </div>
 
         <div className="form-group">
-          <label for="exampleInputEmail1">Email address</label>
+          <label htmlFor="exampleInputEmail1">Email address</label>
           <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com"/>
           <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
