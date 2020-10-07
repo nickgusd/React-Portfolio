@@ -1,0 +1,14 @@
+#about-row, #about-col {
+    background: #70A288 !important;
+    border: none;
+}
+
+h1 {
+    color: black !important;
+}
+
+#description, #description-row {
+    background: white !important;
+    border: none;
+    
+}
