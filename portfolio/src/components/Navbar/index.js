@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./style.css"
 // import { BrowserRouter as Router} from "react-router-dom";
 // import "./index.css";
 
@@ -8,14 +9,14 @@ function Navbar() {
 
     return (
      
-      <nav className="navbar navbar-expand-lg navbar-light text-left" >
-      <Link className="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg navbar-light text-left" id="nav-color">
+      <Link className="navbar-brand" to="/" id="navbar-text">
         Navbar
       </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link
+            <Link id="about-text"
               to="/"
               className={
                 window.location.pathname === "/" || window.location.pathname === "/about"
@@ -27,7 +28,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
+            <Link id="portfolio-text"
               to="/portfolio"
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
@@ -35,7 +36,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
+            <Link id="contact-text"
               to="/contact"
               className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
             >

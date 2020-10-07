@@ -1,14 +1,51 @@
+body {
+    background-color: #afb9c5ba !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: 16px !important;
+
+}
+
+
+.about-container {
+    margin-top: 20px;
+}
+
 #about-row, #about-col {
     background: #70A288 !important;
+    height: 50px !important;
     border: none;
 }
 
 h1 {
     color: black !important;
+    font-size: 20px !important;
+    margin-top: 10px !important;
 }
 
-#description, #description-row {
+#description, #description-col, #experience, #experience-col {
     background: white !important;
-    border: none;
+    border: none !important;
     
+}
+
+.col-md-12 {
+    background: white !important;
+    border: none !important;
+}
+
+img {
+    margin-top: 30px !important;
+    display: block;
+    transform: scale(1.2) !important;
+    margin: 0 auto;
+}
+
+.about-content {
+    color: black !important;
+    margin-top: 40px !important;
+    
+}
+
+.experience-content {
+    color: black !important;
 }

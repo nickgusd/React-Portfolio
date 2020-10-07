@@ -7,27 +7,23 @@ import "./style.css"
 function AboutContainer() {
 return (
  
-<Container>
-  <Row className="row row1" id="about-row">
+<Container className="about-container">
+  <Row className="row " id="about-row">
     <Col xs={12} md={12} sm={12} id="about-col">
     <h1>About Me</h1>
       </Col>
   </Row>
-  <Row className="row row2" id="description">
+  <Row className="row " id="description">
     <Col xs={12} md={12} sm={12} id="description-row">
     <img alt="Nick Guimarais" src={Nick}/>
-    <p>Hello, my name is Nick Guimarais and I am a Web Developer. I have a Bachelor’s Degree in Accounting, and a Bachelor’s Degree in Finance from the University of San Diego. Previously, I worked in Public Accounting over the last four years doing Auditing and Consulting.</p>
+    <p className="about-content">Hello, my name is Nick Guimarais and I am a Web Developer. I have a Bachelor’s Degree in Accounting, and a Bachelor’s Degree in Finance from the University of San Diego. Previously, I worked in Public Accounting over the last four years doing Auditing and Consulting.</p>
       </Col>
   </Row>
-  <Row className="row row3">
-    <Col xs={12} md={12} sm={12}>
-    <p>My programming experience includes HTML, CSS, Bootstrap, JavaScript, and JQuery</p>
+  <Row className="row" id="experience">
+    <Col xs={12} md={12} sm={12} id="experience-col">
+    <p className="experience-content">My programming experience includes HTML, CSS, Bootstrap, JavaScript, and JQuery</p>
       </Col>
   </Row>
-
-
-
-
 </Container>
 
 

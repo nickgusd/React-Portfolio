@@ -1,4 +1,4 @@
-
+/* 
 body {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,9 +42,9 @@ form {
 
 .message {
     margin-bottom: 10px;
-}
+} */
 
-footer  {
+/* footer  {
     position: fixed; 
     bottom: 0; 
     width: 100%;
@@ -76,7 +76,7 @@ footer a:active {
 #facebook {
     transform: scale(2);
     margin-left: 20px;
-}
+} */
 
 
 @media (max-width: 640px) {
