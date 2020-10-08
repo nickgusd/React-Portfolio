@@ -1,0 +1,31 @@
+.portfolio-container {
+    margin-top: 40px;
+    border: 1px solid lightslategray;
+}
+
+.portfolio-header {
+    background-color: #355070;
+}
+
+
+.grid-col {
+    border: 1px solid lightslategray;
+    background-color: #70A288;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px !important;
+    margin-bottom: 40px;
+}
+
+a {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
