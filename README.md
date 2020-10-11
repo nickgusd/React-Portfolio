@@ -27,7 +27,7 @@ The React portfolio was created using React.js and React Bootstrap. The portfoli
 
  Deployed Application: https://nickgusd.github.io/React-Portfolio/
 
- 
+ Github: https://github.com/nickgusd/React-Portfolio
 
 ## Note
 
