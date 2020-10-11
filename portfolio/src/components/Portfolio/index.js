@@ -19,7 +19,7 @@ function PortfolioGrid() {
 
 <Row className="portfolio-header" >
     <Col xs={12} md={6} sm={12}  >
-    <h1>Portfolio</h1>
+    <h1 id="portfolio">Portfolio</h1>
       </Col>
   </Row>
 

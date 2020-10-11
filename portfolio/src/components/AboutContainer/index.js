@@ -21,7 +21,7 @@ return (
   </Row>
   <Row className="row" id="experience">
     <Col xs={12} md={12} sm={12} id="experience-col">
-    <p className="experience-content">My programming experience includes HTML, CSS, Bootstrap, JavaScript, and JQuery</p>
+    <p className="experience-content">My programming experience includes JavaScript, HTML, CSS, JQuery, React.js, Bootstrap, APIs, AJAX, Axios, Node.js, Express.js, DOM, MySQL, MongoDB, Mongoose, Sequelize, Heroku, Git, GitHub, Algorithms, Data Structures, Postman, and Visual Studio Code.</p>
       </Col>
   </Row>
 </Container>
