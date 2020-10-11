@@ -6,16 +6,14 @@ import About from "./components/pages/About";
 import PortfolioPage from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer/index";
-import "./assets/css/contact.css"
-import "./assets/css/index.css"
-import "./assets/css/portfolio.css"
+
 
 // const App = () => <Portfolio />;
 function App() {
     return (
         <Router>
         <Navbar />
-            <Route exact path="/" component={About} />
+            <Route exact path="/React-Portfolio" component={About} />
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={PortfolioPage} />
             <Route exact path="/contact" component={Contact} />
