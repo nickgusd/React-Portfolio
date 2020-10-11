@@ -1,0 +1,72 @@
+.portfolio-container {
+    margin-top: 40px;
+    border: 1px solid lightslategray;
+}
+
+.portfolio-header {
+    background-color: #355070;
+}
+
+
+.grid-col {
+    border: 1px solid lightslategray;
+    background-color: #70A288;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px !important;
+    margin-bottom: 40px;
+}
+
+a {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+#portfolio {
+    color: white !important;
+}
+
+
+
+@media (max-width: 640px) {
+
+	.container {
+		width: 80%;
+	}
+
+	img {
+		transform: scale(.8);
+	}
+
+}
+
+
+
+  @media (min-width: 768px) {
+
+    .container {
+		width: 75%;
+		
+	}
+	
+	img {
+		transform: scale(.8);
+	}
+
+}
+
+@media (min-width: 980px) {
+
+    .container {
+		width: 60%;
+		
+	}
+	
+}
