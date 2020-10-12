@@ -19,7 +19,7 @@ form {
     background-color: #70A288;
     padding: 20px;
     margin-bottom: 20px;
-
+    width: 50%;
 
 }
 
@@ -29,13 +29,22 @@ form {
     margin-bottom: 10px;
 }
 
-
+.email-text {
+    color: white;
+}
 
 header {
     font-size: 24px;
 }
 
-@media (max-width: 640px) {
+.col-xl-12, .col-lg-12, .col-md-12, .col-sm-12, .col-12{
+    background-color: #70A288 !important;
+}
+
+
+
+
+@media (max-width: 725px) {
 
 body {
         font-size: 14px;
@@ -44,7 +53,18 @@ body {
 h1 {
         font-size: 18px;
     }
+
+form {
+    width: 100%;
+    margin: 0px 0px;
+
+}
+    /* .calendly-inline-widget {
+        transform: scale(.6);
+    } */
+
     }
+
     
 @media (min-width: 768px) {
     
@@ -55,17 +75,21 @@ body {
     h1 {
         font-size: 20px;
         }
-    /* form {
+    form {
         width: 50%;
-    } */
+    }
+
+    
+
+
         }
 
 @media (min-width: 980px) {
             
     
 form {
-        /* margin-right: 300px; */
+        margin-right: 300px;
         width: 50%;
 
             }
-        }
+        } 

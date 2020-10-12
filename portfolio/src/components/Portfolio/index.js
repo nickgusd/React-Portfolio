@@ -17,8 +17,8 @@ function PortfolioGrid() {
 
 <Container  className="portfolio-container">
 
-<Row className="portfolio-header" >
-    <Col xs={12} md={6} sm={12}  >
+<Row className="portfolio-header"  >
+    <Col xs={12} md={6} sm={12} id="portfolio-header" >
     <h1 id="portfolio">Portfolio</h1>
       </Col>
   </Row>

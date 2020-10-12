@@ -22,7 +22,7 @@ h1 {
     margin-top: 10px !important;
 }
 
-#description, #description-col, #experience, #experience-col {
+#description, #description-row, #experience, #experience-col {
     background: white !important;
     border: none !important;
     

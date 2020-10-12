@@ -6,8 +6,8 @@
 
 }
 
-.portfolio-header {
-    background-color: #355070;
+.portfolio-header, #portfolio-header {
+    background-color: #355070 !important;
 }
 
 
