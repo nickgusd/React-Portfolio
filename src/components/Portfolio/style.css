@@ -1,6 +1,9 @@
 .portfolio-container {
-    margin-top: 40px;
     border: 1px solid lightslategray;
+    transform: scale(.8);
+    margin-bottom: 40px;
+    margin-top: -40px;
+
 }
 
 .portfolio-header {
