@@ -1,7 +1,7 @@
 body {
-    background-color: #afb9c5ba !important;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
-    font-size: 16px !important;
+    background-color: #afb9c5ba ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
 
 }
 
@@ -11,13 +11,13 @@ body {
 }
 
 #about-row, #about-col {
-    background: #70A288 !important;
-    height: 50px !important;
+    background: #70A288 ;
+    height: 50px;
     border: none;
 }
 
 h1 {
-    color: black !important;
+    color: black;
     font-size: 20px !important;
     margin-top: 10px !important;
 }
@@ -41,13 +41,13 @@ img {
 }
 
 .about-content {
-    color: black !important;
-    margin-top: 40px !important;
+    color: black;
+    margin-top: 40px;
     
 }
 
 .experience-content {
-    color: black !important;
+    color: black;
 }
 
 
