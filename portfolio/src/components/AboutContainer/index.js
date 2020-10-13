@@ -15,7 +15,7 @@ return (
   </Row>
   <Row className="row " id="description">
     <Col xs={12} md={12} sm={12} id="description-row">
-    <img alt="Nick Guimarais" src={Nick}/>
+    <img alt="Nick Guimarais" src={Nick} id="nick-pic"/>
     <p className="about-content">Hello, my name is Nick Guimarais and I am a Web Developer. I have a Bachelor’s Degree in Accounting, and a Bachelor’s Degree in Finance from the University of San Diego. Previously, I worked in Public Accounting over the last four years doing Auditing and Consulting.</p>
       </Col>
   </Row>

@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    color: #CAE9FF;
+    color: #BEE9E8;
     font-size: 20px !important;
     margin-top: 10px !important;
 }
@@ -59,4 +59,23 @@ img {
     }
     }
     
-    
+
+@media (max-width: 728px) {
+    .about-content, .experience-content {
+        font-size: 12px;
+
+    }
+    .about-container {
+        overflow: scroll;
+    }
+        }
+
+
+  
+@media (max-width: 420px) {
+    .about-content, .experience-content {
+        font-size: 12px;
+
+    }
+   
+        }      
