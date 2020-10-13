@@ -40,7 +40,29 @@ header {
     background-color: #5fa8d3 !important;
 }
 
+#calendly-col {
+    padding-top: 20px;
+}
 
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .contact-form {
+        width: 95%;
+        margin-left: 15px;
+        
+    }
+
+    .Name-row, .Email-row, .message-row, #calendly-col {
+        padding-right: 30px !important;
+    }
+
+}
 
 
 @media (max-width: 725px) {
@@ -54,8 +76,8 @@ h1 {
     }
 
 form {
-    width: 100%;
-    margin: 50px 10px; 
+    width: 80%;
+    
 
 }
     
@@ -75,17 +97,6 @@ body {
         width: 50%;
     }
 
-    
-
-
         }
 
-@media (min-width: 980px) {
-            
-    
-form {
-        margin-right: 300px;
-        width: 50%;
 
-            }
-        } 

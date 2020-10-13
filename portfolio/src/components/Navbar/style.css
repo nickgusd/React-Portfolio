@@ -11,3 +11,9 @@
     color: #1B4965;
     
 }
+
+@media (max-width: 481px) {
+    #nav-color {
+        width: 102%;
+    }
+}

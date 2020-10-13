@@ -55,8 +55,8 @@ function ContactForm() {
   </Row>
 
 
-  <Row className="Email-row" >
-    <Col xs={12} md={12} sm={12} lg={12} xl={12}>
+  <Row  >
+    <Col xs={12} md={12} sm={12} lg={12} xl={12} className="Email-row">
     <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control  placeholder="Enter email"  type="text" name="from_email" id="from_email"/>
@@ -68,8 +68,8 @@ function ContactForm() {
   </Row>
 
 
-  <Row className="message-row" >
-    <Col xs={12} md={12} sm={12} lg={12} xl={12}>
+  <Row  >
+    <Col xs={12} md={12} sm={12} lg={12} xl={12} className="message-row">
   <Form.Group controlId="exampleForm.ControlTextarea1">
     <Form.Label>Message</Form.Label>
     <Form.Control as="textarea" rows="3" placeholder="Please leave a message!" type="email" name="message" id="message"/>
@@ -81,7 +81,7 @@ function ContactForm() {
   </Row>
 
   <Row className="calendly-row" >
-    <Col xs={12} md={12} sm={12} lg={12} xl={12}>
+    <Col xs={12} md={12} sm={12} lg={12} xl={12} id="calendly-col">
   <InlineWidget  
     color="#00a2ff"
     text="Request a Meeting Time!"
