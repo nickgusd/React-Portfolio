@@ -59,6 +59,34 @@ p {
 
 }
 
+@media (max-width: 325px) {
+    img{
+        transform: scale(.95) !important;
+    }
+}
+
+
+
+
+
+@media (max-width: 420px) {
+    .portfolio-container {
+        margin-top: -120px !important;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .portfolio-container {
+        margin-top: -80px;
+    }
+}
+
+
+
 
 
   @media (min-width: 768px) {
