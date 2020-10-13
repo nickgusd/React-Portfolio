@@ -7,14 +7,17 @@
 }
 
 .portfolio-header, #portfolio-header {
-    background-color: #355070 !important;
+    background-color: #1B4965 !important;
 }
 
 
-.grid-col {
-    border: 1px solid lightslategray;
-    background-color: #70A288;
+.grid-col, .grid-col, .col-md-6, .col-sm-12, .col-12 {
+    border: 1px solid #1B4965;
+    background-color: #5fa8d3 !important;
 }
+
+
+
 
 img {
     display: block;
@@ -30,10 +33,16 @@ a {
 
 p {
     color: white;
+    font-size: 20px;
+}
+
+.portfolio-text:hover {
+    color: #1b4965;
+    font-size: 20px;
 }
 
 #portfolio {
-    color: white !important;
+    color: #CAE9FF !important;
 }
 
 

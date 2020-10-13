@@ -1,8 +1,13 @@
 #nav-color {
-    background-color: #355070 !important;
+    background-color: #1b4965!important;
 }
 
 #navbar-text, #about-text, #portfolio-text, #contact-text {
-    color: white;
+    color: #CAE9FF;
 }
 
+#about-text:hover, #portfolio-text:hover, #contact-text:hover {
+    background-color: #BEE9E8;
+    color: #1B4965;
+    
+}

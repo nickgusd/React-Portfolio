@@ -1,12 +1,12 @@
 
 body {
-    background-color: #afb9c5ba !important;
+    background-color: #CAE9FF!important;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-size: 16px !important;
 
 }
 .footer  {
-    background-color: #355070 !important;
+    background-color: #1b4965 !important;
     position: fixed !important; 
     bottom: 0 !important; 
     width: 100% !important;
@@ -35,25 +35,26 @@ footer a:active {
 
 #linked-in {
     transform: scale(2) !important;
-    color: white;
+    color: #CAE9FF;
     margin-left: 100px;
 }
 
 #github {
     transform: scale(2) !important;
     /* margin-left: 100px !important; */
-    color: white;
+    color: #CAE9FF;
     margin-right: 100px;
 }
 
 #facebook {
     transform: scale(2) !important;
     /* margin-left: 200px !important; */
-    color: white;
+    color: #CAE9FF;
 }
 
 #linked-in:hover, #github:hover, #facebook:hover {
-   color:  #70A288;
+   color:  #5FA8D3;
+    
 }
 
 

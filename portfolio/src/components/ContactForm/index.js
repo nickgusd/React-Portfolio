@@ -34,20 +34,19 @@ function ContactForm() {
 
 //form contains widget for Calendly
 
-<Form onSubmit={sendEmail}>
+<Form onSubmit={sendEmail} className="contact-form">
 
     
-    <Row className="contact-header" >
-    <Col xs={12} md={12} sm={12} lg={12} xl={12} >
-    <header>
+    <Row >
+    <Col xs={12} md={12} sm={12} lg={12} xl={12} id="contact-header">
+    <h1>
       Contact
-    </header>
-    <hr/>
+    </h1>
       </Col>
     </Row>
 
-    <Row className="Name-row" >
-    <Col xs={12} md={12} sm={12} lg={12} xl={12}>
+    <Row  >
+    <Col xs={12} md={12} sm={12} lg={12} xl={12} className="Name-row">
     <Form.Group controlId="formBasicName">
     <Form.Label>Name</Form.Label>
     <Form.Control type="name" placeholder="Enter name" name="from_name" id="from_name" />
