@@ -52,6 +52,9 @@ img {
 }
 
 
+
+
+
 @media (min-width: 768px) {
 
     .container {
@@ -77,5 +80,10 @@ img {
         font-size: 12px;
 
     }
+
+    #experience-col {
+        margin-bottom: 50px;
+    }
+    
    
         }      
