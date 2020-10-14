@@ -29,16 +29,16 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link id="portfolio-text"
-              to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+              to="/React-Portfolio/portfolio"
+              className={window.location.pathname === "/React-Portfolio/portfolio" ? "nav-link active" : "nav-link"}
             >
              Portfolio
             </Link>
           </li>
           <li className="nav-item">
             <Link id="contact-text"
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+              to="/React-Portfolio/contact"
+              className={window.location.pathname === "/React-Portfolio/contact" ? "nav-link active" : "nav-link"}
             >
               Contact
             </Link>
