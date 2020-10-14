@@ -19,8 +19,11 @@ function ContactForm() {
     emailjs.sendForm('service_py7vh7h', 'template_hjf2hmj', e.target, 'user_wfPJJXSH9xWczqIkxR4iP')
       .then((result) => {
           console.log(result.text);
-          window.location.reload();
 
+          setTimeout(() => 
+          alert("Thank you, your message has been received!"), window.location.reload(), 1000)
+         
+          
       }, (error) => {
           console.log(error.text);
       });
