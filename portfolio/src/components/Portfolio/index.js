@@ -26,11 +26,11 @@ function PortfolioGrid() {
 
   <Row className="first-row">
     <Col xs={12} md={6} sm={12} className="grid-col">
-    <img src={Bubble} alt="Project 1"/>
+    <img src={Bubble} alt="Project 1" id="project1"/>
     <a href="https://edwardreyes29.github.io/project-1/" target="blank"><p className="portfolio-text">Secure Travel App</p></a>
       </Col>
       <Col xs={12} md={6} sm={12} className="grid-col">
-      <img src={Apple} alt="Password Generator"/>
+      <img src={Apple} alt="Password Generator" id="project2"/>
       <a href="https://nickgusd.github.io/Password-Generator/" target="blank"><p className="portfolio-text">Password Generator</p></a>
       </Col>
 
@@ -38,11 +38,11 @@ function PortfolioGrid() {
 
   <Row className="second-row">
     <Col xs={12} md={6} sm={12} className="grid-col" >
-    <img src={Quiz} alt="Code Quiz"/>
+    <img src={Quiz} alt="Note Taker" id="project3"/>
     <a href="https://protected-shore-03622.herokuapp.com/" target="blank"><p className="portfolio-text">Note-Taker</p></a>
       </Col>
       <Col xs={12} md={6} sm={12} className="grid-col" >
-      <img src={Tinder} alt="Tinder for Restaurants"/>
+      <img src={Tinder} alt="Tinder for Restaurants" id="project4"/>
         <a href="https://vast-lowlands-43566.herokuapp.com/" target="blank"><p className="portfolio-text">Tinder for Restaurants</p></a>
 
       </Col>
@@ -51,12 +51,12 @@ function PortfolioGrid() {
 
   <Row className="third-row">
     <Col xs={12} md={6} sm={12} className="grid-col">
-    <img src={Laptop} alt="Weather Dashboard"/>
+    <img src={Laptop} alt="Weather Dashboard" id="project5"/>
     <a href="https://arcane-everglades-49918.herokuapp.com/"><p className="portfolio-text">Music eXchange</p></a>
     
       </Col>
       <Col xs={12} md={6} sm={12} className="grid-col">
-      <img src={Ipad} alt="Code Refactor"/>
+      <img src={Ipad} alt="Code Refactor" id="project6"/>
       <a href="https://damp-waters-57453.herokuapp.com/" target="blank"><p className="portfolio-text">Google Book Search</p></a>
       </Col>
 
