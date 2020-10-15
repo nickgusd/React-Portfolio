@@ -11,7 +11,7 @@ function Navbar() {
      
       <nav className="navbar navbar-expand-lg navbar-light text-left" id="nav-color">
       <Link className="navbar-brand" to="/React-Portfolio" id="navbar-text">
-        Navbar
+        Nick Guimarais
       </Link>
       <div>
         <ul className="navbar-nav">
