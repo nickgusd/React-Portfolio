@@ -1,19 +1,23 @@
 .portfolio-container {
-    border: 1px solid lightslategray;
+    border: 1px solid white;
     transform: scale(.8);
     margin-bottom: 40px;
     margin-top: -40px;
+    border-radius: .3rem;
 
 }
 
 .portfolio-header, #portfolio-header {
-    background-color: #1B4965 !important;
+    background-color: transparent !important;
+    border: none;
 }
 
 
 .grid-col, .grid-col, .col-md-6, .col-sm-12, .col-12 {
-    border: 1px solid #1B4965;
-    background-color: #5fa8d3 !important;
+    /* border: 1px solid #1B4965; */
+    /* background-color: #5fa8d3 !important; */
+    background-color: transparent !important;
+    border: 1px solid white;
 }
 
 img {
@@ -43,7 +47,8 @@ p {
 }
 
 #portfolio {
-    color: #BEE9E8!important;
+    /* color: #BEE9E8!important; */
+    color: white;
 }
 
 

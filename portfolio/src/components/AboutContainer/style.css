@@ -2,16 +2,26 @@ body {
     background-color: #afb9c5ba ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
+    background: url(https://www.imperial.ac.uk/stories/social-media-online-harms/assets/PkPeMZo8Gp/shutterstock_148746329-2560x1440.jpeg);
+    /* background-image: url(https://cdn.hipwallpaper.com/i/57/44/EfDaCk.jpg); */
+    /* background: url(http://www.allwhitebackground.com/images/6/Blue-Powerpoint-Background-Free-Images.jpg) */
+    /* background-image: url("../../assets/img/business-c-background.png"); */
 
 }
+
+
+#about-header {
+    color: black;
+}
+
 
 
 .about-container {
     margin-top: 20px;
     -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.4) !important;
     box-shadow: 0 1px 4px rgba(0,0,0,0.4) !important;
-    width: 50% !important;
-    
+    width: 30% !important;
+   
     
 }
 
@@ -27,7 +37,7 @@ body {
 
 
 #nick-pic {
-    /* transform: scale(.8) !important; */
+    /* transform: scale(.4) !important; */
     display: block;
     margin: 0 auto !important;
     width: auto;
@@ -58,21 +68,32 @@ h1 {
     
 }
 
+#description-row {
+    height: 10vw !important;
+}
+
+
+#nick-col {
+    background-color: white !important;
+    height: 20vw;
+}
+
+
 .col-md-12 {
     background: white !important;
     border: none !important;
 }
 
-img {
+/* img {
     margin-top: 30px !important;
     display: block;
     transform: scale(.8) !important;
     margin: 0 auto;
-}
+} */
 
 .about-content {
     color: black;
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 16px;
     
 }

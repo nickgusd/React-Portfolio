@@ -6,7 +6,7 @@ body {
 
 }
 .footer  {
-    background-color: white;
+    background-color: transparent;
     position: fixed !important; 
     bottom: 0 !important; 
     width: 100% !important;
@@ -35,26 +35,32 @@ footer a:active {
 
 #linked-in {
     transform: scale(2) !important;
-    color: #0072b1;
+    /* color: #0072b1; */
+    /* color:rgb(14, 23, 111); */
+    color: white;
     margin-left: 100px;
 }
 
 #github {
     transform: scale(2) !important;
     /* margin-left: 100px !important; */
-    color: black;
+    /* color: black; */
+    /* color:rgb(14, 23, 111); */
     margin-right: 100px;
+    color: white;
 }
 
 #facebook {
     transform: scale(2) !important;
     /* margin-left: 200px !important; */
-    color: #3b5998;
+    /* color: #3b5998; */
+    /* color:rgb(14, 23, 111); */
+    color: white;
 }
 
 #linked-in:hover, #github:hover, #facebook:hover {
-   color:  #5FA8D3;
-    
+   /* color:  #5FA8D3; */
+    color:rgb(14, 23, 111);
 }
 
 

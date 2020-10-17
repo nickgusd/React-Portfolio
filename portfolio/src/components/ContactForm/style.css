@@ -5,19 +5,31 @@ form {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 30px;
-    background-color: #5fa8d3;
+    /* background-color: #5fa8d3; */
+    background-color: white!important;
     margin-bottom: 20px;
-    width: 50%;
-    
+    width: 40% !important;
+    border: 1px solid white;
+    border-radius: .3rem;
+    height: 1000px;
 }
 
+h1 {
+    color: white;
+}
+
+
+
 #contact-header {
-    background-color: #1b4965 !important;
+    /* background-color: #1b4965 !important; */
+    background-color: transparent;
     padding: 15px;
+    color: white;
 }
 
 .Name-row {
     padding-top: 10px;
+    
 }
 
 .btn, .btn-primary {
@@ -37,14 +49,34 @@ header {
 }
 
 .col-xl-12, .col-lg-12, .col-md-12, .col-sm-12, .col-12{
-    background-color: #5fa8d3 !important;
+    /* background-color: #5fa8d3 !important; */
+    background-color: transparent!important;
 }
 
 #calendly-col {
-    padding-top: 20px;
+    position: relative;
+    bottom: 80px;
+    transform: scale(.8);
 }
 
 
+#from_name, #from_email, #message {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-label, .email-text, .contact {
+    padding-left: 35px !important;
+    color: black;
+}
+
+
+#submit-btn {
+    margin-left: 35px;
+    border-color: #ff3616!important;
+    background-color: #ff3616 !important;
+}
 
 
 

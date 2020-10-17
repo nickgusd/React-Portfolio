@@ -42,9 +42,10 @@ function ContactForm() {
     
     <Row >
     <Col xs={12} md={12} sm={12} lg={12} xl={12} id="contact-header">
-    <h1>
+    <h1 className="contact">
       Contact
     </h1>
+    <hr id="line"/>
       </Col>
     </Row>
 
@@ -77,7 +78,7 @@ function ContactForm() {
     <Form.Label>Message</Form.Label>
     <Form.Control as="textarea" rows="3" placeholder="Please leave a message!" type="email" name="message" id="message"/>
   </Form.Group>
-  <Button variant="primary" type="submit" >
+  <Button variant="primary" type="submit" id="submit-btn" >
     Submit
   </Button>
   </Col>
@@ -85,11 +86,13 @@ function ContactForm() {
 
   <Row className="calendly-row" >
     <Col xs={12} md={12} sm={12} lg={12} xl={12} id="calendly-col">
-  <InlineWidget  
+  <InlineWidget 
+    
     color="#00a2ff"
     text="Request a Meeting Time!"
     className="calendly"
-    textColor="#ffffff"url="https://calendly.com/nick-guimarais"/>
+    textColor="#ffffff"
+    url="https://calendly.com/nick-guimarais"/>
   </Col>
   </Row>
 

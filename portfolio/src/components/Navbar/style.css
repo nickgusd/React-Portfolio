@@ -1,5 +1,5 @@
 #nav-color {
-    background-color: #283e4a;
+    background-color: transparent;
 }
 
 #navbar-text, #about-text, #portfolio-text, #contact-text {
@@ -7,10 +7,15 @@
 }
 
 #about-text:hover, #portfolio-text:hover, #contact-text:hover {
-    background-color: #BEE9E8;
-    color: #1B4965;
+    border-color: white !important;
+    
     
 }
+
+.navbar-light {
+    border-color: white !important;
+}
+
 
 @media (max-width: 481px) {
     #nav-color {
