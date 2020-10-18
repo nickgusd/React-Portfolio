@@ -7,10 +7,15 @@
 
 }
 
-.portfolio-header, #portfolio-header {
+.portfolio-header{
     background-color: transparent !important;
-    border: none;
+    border: 1px solid white;
 }
+
+#portfolio-header {
+    border: none
+}
+
 
 
 .grid-col, .grid-col, .col-md-6, .col-sm-12, .col-12 {
@@ -28,8 +33,6 @@ img {
     margin-bottom: 40px;
     
 }
-
-
 
 
 a {
@@ -101,7 +104,7 @@ p {
 
   @media (min-width: 768px) {
 
-    .container {
+    .portfolio-container {
 		width: 75%;
 		
 	}
@@ -114,19 +117,23 @@ p {
 
 @media (min-width: 980px) {
 
-    .container {
+    .portfolio-container {
 		width: 60%;
 		
 	}
 	
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
 
     img {
-		transform: scale(.98) !important;
+		transform: scale(1.1) !important;
+		
+    }
+     
+	.portfolio-container {
+		width: 60% !important;
 		
 	}
-	
 }
 

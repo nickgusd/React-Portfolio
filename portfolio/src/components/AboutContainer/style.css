@@ -68,9 +68,9 @@ h1 {
     
 }
 
-#description-row {
+/* #description-row {
     height: 10vw !important;
-}
+} */
 
 
 #nick-col {
@@ -106,10 +106,93 @@ h1 {
 
 
 
+
+
+
+@media (max-width: 415px) {
+    .about-container {
+        width: 80% !important;
+        
+    }
+
+    .about-content, .experience-content {
+        font-size: 8px !important;
+        
+    }
+
+    #description-row {
+        height: 10vh !important;
+    }
+
+
+
+    #nick-col {
+        height: 50vw !important;
+    }
+
+}
+
+
+
+@media (min-width: 415px) {
+    .about-container {
+        width: 50% !important;
+    }
+
+    .about-content, .experience-content {
+        font-size: 12px;
+        
+    }
+
+
+}
+
+@media (max-width: 770px) {
+    .about-content, .experience-content {
+        font-size: 10px;
+        
+    }
+
+    #nick-col {
+        height: 30vw;
+    }
+
+}
+
+
+
+
+@media (min-width: 1030px) {
+    .about-container {
+        width: 40% !important;
+    }
+
+    .about-content, .experience-content {
+        font-size: 16px;
+        
+    }
+
+    #nick-col {
+        height: 30vw;
+    }
+
+} 
+
+@media (min-width: 1200px) {
+    #nick-col {
+        height: 20vw;
+    }
+}
+
+
+
+
 /* 
+
+
 @media (min-width: 768px) {
 
-    .container {
+    .about-container {
         width: 60%;
     }
     }
@@ -142,4 +225,4 @@ h1 {
     }
     
    
-        }       */
+        }        */
