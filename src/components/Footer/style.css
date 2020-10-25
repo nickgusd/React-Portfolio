@@ -1,12 +1,12 @@
 
 body {
-    background-color: #afb9c5ba !important;
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     font-size: 16px !important;
 
 }
 .footer  {
-    background-color: #355070 !important;
+    background-color: transparent;
     position: fixed !important; 
     bottom: 0 !important; 
     width: 100% !important;
@@ -14,7 +14,6 @@ body {
     height: 56px !important;
 
 }
-
 
 
 .footer a {
@@ -35,6 +34,8 @@ footer a:active {
 
 #linked-in {
     transform: scale(2) !important;
+    /* color: #0072b1; */
+    /* color:rgb(14, 23, 111); */
     color: white;
     margin-left: 100px;
 }
@@ -42,27 +43,29 @@ footer a:active {
 #github {
     transform: scale(2) !important;
     /* margin-left: 100px !important; */
-    color: white;
+    /* color: black; */
+    /* color:rgb(14, 23, 111); */
     margin-right: 100px;
+    color: white;
 }
 
 #facebook {
     transform: scale(2) !important;
     /* margin-left: 200px !important; */
+    /* color: #3b5998; */
+    /* color:rgb(14, 23, 111); */
     color: white;
 }
 
 #linked-in:hover, #github:hover, #facebook:hover {
-   color:  #70A288;
+   /* color:  #5FA8D3; */
+    color:rgb(14, 23, 111);
+}
+
+.myemail {
+   position: relative;
+   top: 15px;
+   
 }
 
 
-
-
-/* .icon-container {
-    width: 300px;
-    height: 50px;
-    display: flex !important;
-    justify-content: center !important;
-    border: 1px solid white !important;
-} */

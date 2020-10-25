@@ -1,41 +1,119 @@
-/* form {
-    position: relative;
-    text-align: left;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 30px;
-    border: 1px solid lightgray;
-    background-color: #70A288;
-    padding: 20px;
-    width: 50%;
-} */
+
 
 form {
     margin: 0 auto;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 30px;
-    border: 1px solid lightgray;
-    background-color: #70A288;
-    padding: 20px;
+    /* background-color: #5fa8d3; */
+    background-color: white!important;
     margin-bottom: 20px;
+    width: 40% !important;
+    border: 1px solid white;
+    border-radius: .3rem;
+    height: 1000px;
+}
+
+h1 {
+    color: white;
+}
 
 
+
+#contact-header {
+    /* background-color: #1b4965 !important; */
+    background-color: transparent;
+    padding: 15px;
+    color: white;
+}
+
+.Name-row {
+    padding-top: 10px;
+    
 }
 
 .btn, .btn-primary {
-    background-color: #355070 !important;
-    border-color: #355070 !important;
+    background-color: #1b4965!important;
+    border-color: #1b4965!important;
     margin-bottom: 10px;
 }
 
-
+.email-text {
+    color: white;
+}
 
 header {
     font-size: 24px;
+    color: white;
+    
 }
 
-@media (max-width: 640px) {
+.col-xl-12, .col-lg-12, .col-md-12, .col-sm-12, .col-12{
+    /* background-color: #5fa8d3 !important; */
+    background-color: transparent!important;
+}
+
+#calendly-col {
+    position: relative;
+    bottom: 60px;
+    transform: scale(.8);
+}
+
+
+#from_name, #from_email, #message {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-label, .email-text, .contact {
+    padding-left: 28px !important;
+    color: black;
+}
+
+
+#submit-btn {
+    margin-left: 28px;
+    border-color: #ff3616!important;
+    background-color: #ff3616 !important;
+}
+
+.myemail {
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        width: 92% !important;
+        margin-left: 15px;
+        
+    }
+
+    .Name-row, .Email-row, .message-row, #calendly-col {
+        padding-right: 30px !important;
+    }
+
+    .form-label, .email-text, .contact {
+        padding-left: 16px !important;
+    }
+    #submit-btn {
+        margin-left: 15px;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+    .contact-form {
+        width: 92% !important;
+        display: block;
+        margin: 0 auto !important;
+    }
+}
+
+
+
+@media (max-width: 725px) {
 
 body {
         font-size: 14px;
@@ -44,7 +122,15 @@ body {
 h1 {
         font-size: 18px;
     }
+
+form {
+    width: 80%;
+    
+
+}
+    
     }
+
     
 @media (min-width: 768px) {
     
@@ -55,17 +141,10 @@ body {
     h1 {
         font-size: 20px;
         }
-    /* form {
+    form {
         width: 50%;
-    } */
+    }
+
         }
 
-@media (min-width: 980px) {
-            
-    
-form {
-        /* margin-right: 300px; */
-        width: 50%;
 
-            }
-        }

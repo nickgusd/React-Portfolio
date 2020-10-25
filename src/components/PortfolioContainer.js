@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PortfolioPage from "./pages/Portfolio";
 import Navbar from "./Navbar";
+import Projects from "./Portfolio/projects";
 
 class Portfolio extends Component {
   state = {
@@ -17,7 +18,7 @@ class Portfolio extends Component {
     if (this.state.currentPage === "About") {
       return <About />;
     } else if (this.state.currentPage === "Portfolio") {
-      return <PortfolioPage />;
+      return <PortfolioPage  />;
     } else if (this.state.currentPage === "Contact") {
       return <Contact />;
     } else {
