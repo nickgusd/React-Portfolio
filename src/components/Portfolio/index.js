@@ -51,7 +51,7 @@ function PortfolioGrid() {
     <Card description={Projects[3].description2} projects={Projects[0].project2} github={Projects[1].github2} deployed={Projects[2].deployed2} image={Laptop}></Card>
       </Col>
       <Col xs={12} md={6} sm={12} className="grid-col">
-      <Card description={Projects[3].description6} projects={Projects[0].project6} github={Projects[1].github6} deployed={Projects[2].deployed6} image={Ipad}></Card>
+      <Card description={Projects[3].description1} projects={Projects[0].project1} github={Projects[1].github1} deployed={Projects[2].deployed1} image={Ipad}></Card>
       </Col>
 
   </Row>

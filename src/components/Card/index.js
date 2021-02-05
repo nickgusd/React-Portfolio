@@ -49,7 +49,7 @@ export default function RecipeReviewCard(props) {
   const [imagelink, setLink] = React.useState([]);
   let history = useHistory();
 
-//   console.log(props.deployed)
+
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
@@ -68,16 +68,6 @@ export default function RecipeReviewCard(props) {
   return (
     <Card className={classes.root} id="card-container">
       <CardHeader
-        // avatar={
-        //   <Avatar aria-label="recipe" className={classes.avatar}>
-        //     R
-        //   </Avatar>
-        // }
-        // action={
-        //   <IconButton aria-label="settings">
-        //     <MoreVertIcon />
-        //   </IconButton>
-        // }
         title={props.projects}
         style={{textAlign: "center"}}
       />
@@ -93,12 +83,6 @@ export default function RecipeReviewCard(props) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        {/* <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton> */}
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -112,14 +96,13 @@ export default function RecipeReviewCard(props) {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          {/* <Typography paragraph>{props.github} {props.deployed} </Typography> */}
           <div>
           <p style={{color: "black", fontSize: "16px", marginBottom: "0px"}}>Github:</p>
-          <a href={props.github} style={{fontSize: "14px"}}>{props.github}</a>
+          <a href={props.github} style={{fontSize: "14px"}} target="blank">{props.github}</a>
           </div>
           <div>
           <p style={{color: "black", fontSize: "16px", marginBottom: "0px"}}>Deployed:</p>
-           <a href={props.deployed} style={{fontSize: "14px"}}>{props.deployed}</a>
+           <a href={props.deployed} style={{fontSize: "14px"}} target="blank">{props.deployed}</a>
            </div>
         </CardContent>
       </Collapse>

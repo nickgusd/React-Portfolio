@@ -41,10 +41,10 @@ const projects= [
         description4: "An application that helps a group of people choose a restaurant through rounds of swiping, similar to Tinder UI. When the group narrows down the restaurants that they like to 1 restaurant, the group is presented with a match.",
         description5: "An application that allows musicians and artists to their sell music and tutorials directly to their fans.",
         description6: "This application allows the user to search for a book with the Google Search API. The user can also view the book they searched for on Google Books, and the user can even save their favorite books to be stored in the database.",
-        description7: "This platform allows users to make an informed decision about whether or not to get the COVID-19 vaccine, view the vaccination progress, and determine vaccine elegibility in their state."
+        description7: "This platform allows users to make an informed decision about whether or not to get the COVID-19 vaccine, view the vaccination progress, determine vaccine eligibility in their state, and locate vaccine clinics."
     }
     
 ]
  
 
-export default projects;
+export default projects; 
