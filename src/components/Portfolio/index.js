@@ -9,7 +9,10 @@ import Laptop from "../../assets/img/rsz_computer-desk-hand-laptop-374631.jpg"
 import Ipad from "../../assets/img/rsz_space-grey-ipad-air-with-graph-on-brown-wooden-table-187041.jpg"
 import SimpleModal from "../Modal/index";
 import Projects from "./projects";
-import "./style.css"
+import "./style.css";
+import Card from "../Card/index"
+
+
 
 function PortfolioGrid() {
 
@@ -20,46 +23,39 @@ function PortfolioGrid() {
 <Container  className="portfolio-container">
 
 <Row className="portfolio-header"  >
-    <Col xs={12} md={6} sm={12} id="portfolio-header" >
-    <h1 id="portfolio">Portfolio</h1>
+    <Col xs={12} md={12} sm={12} lg={12} xl={12} id="portfolio-header" >
+    <h1 id="portfolio">Nick's Portfolio</h1>
       </Col>
   </Row>
 
-
   <Row className="first-row">
     <Col xs={12} md={6} sm={12} className="grid-col">
-    <a href="https://edwardreyes29.github.io/project-1/" target="blank"> <img src={Bubble} alt="Project 1" id="project1"/><p className="portfolio-text">Secure Travel App</p></a>
-    <SimpleModal  projects={Projects[0].project1} github={Projects[1].github1} deployed={Projects[2].deployed1}/>
+      <Card description={Projects[3].description7} projects={Projects[0].project7} github={Projects[1].github7} deployed={Projects[2].deployed7} image={Bubble}></Card>
       </Col>
       <Col xs={12} md={6} sm={12} className="grid-col">
-      <a href="https://nickgusd.github.io/Password-Generator/" target="blank"><img src={Apple} alt="Password Generator" id="project2"/><p className="portfolio-text">Password Generator</p></a>
-      <SimpleModal  projects={Projects[0].project2} github={Projects[1].github2} deployed={Projects[2].deployed2}/>
+      <Card description={Projects[3].description5} projects={Projects[0].project5} github={Projects[1].github5} deployed={Projects[2].deployed5} image={Apple}></Card>
       </Col>
   </Row>
 
   <Row className="second-row">
     <Col xs={12} md={6} sm={12} className="grid-col" >
-    <a href="https://protected-shore-03622.herokuapp.com/" target="blank"><img src={Quiz} alt="Note Taker" id="project3"/><p className="portfolio-text">Note-Taker</p></a>
-    <SimpleModal projects={Projects[0].project3} github={Projects[1].github3} deployed={Projects[2].deployed3}/>
+    <Card description={Projects[3].description3} projects={Projects[0].project3} github={Projects[1].github3} deployed={Projects[2].deployed3} image={Quiz}></Card>
       </Col>
       <Col xs={12} md={6} sm={12} className="grid-col" >
-        <a href="https://vast-lowlands-43566.herokuapp.com/" target="blank"><img src={Tinder} alt="Tinder for Restaurants" id="project4"/><p className="portfolio-text">Tinder for Restaurants</p></a>
-        <SimpleModal projects={Projects[0].project4} github={Projects[1].github4} deployed={Projects[2].deployed4}/>
+        <Card description={Projects[3].description4} projects={Projects[0].project4} github={Projects[1].github4} deployed={Projects[2].deployed4} image={Tinder}></Card>
       </Col>
   </Row>
-
 
   <Row className="third-row">
     <Col xs={12} md={6} sm={12} className="grid-col">
-    <a href="https://arcane-everglades-49918.herokuapp.com/"> <img src={Laptop} alt="Weather Dashboard" id="project5"/><p className="portfolio-text">Music eXchange</p></a>
-    <SimpleModal projects={Projects[0].project5} github={Projects[1].github5} deployed={Projects[2].deployed5}/>
+    <Card description={Projects[3].description2} projects={Projects[0].project2} github={Projects[1].github2} deployed={Projects[2].deployed2} image={Laptop}></Card>
       </Col>
       <Col xs={12} md={6} sm={12} className="grid-col">
-      <a href="https://damp-waters-57453.herokuapp.com/" target="blank"><img src={Ipad} alt="Code Refactor" id="project6"/><p className="portfolio-text">Google Book Search</p></a>
-      <SimpleModal  projects={Projects[0].project6} github={Projects[1].github6} deployed={Projects[2].deployed6}/>
+      <Card description={Projects[3].description6} projects={Projects[0].project6} github={Projects[1].github6} deployed={Projects[2].deployed6} image={Ipad}></Card>
       </Col>
 
   </Row>
+  
 </Container>
 
 

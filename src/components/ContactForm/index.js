@@ -37,21 +37,21 @@ function ContactForm() {
 
 //form contains widget for Calendly
 
-<Form onSubmit={sendEmail} className="contact-form">
 
-    
-    <Row >
-    <Col xs={12} md={12} sm={12} lg={12} xl={12} id="contact-header">
-    <h1 className="contact" >
+<Form onSubmit={sendEmail} className="contact-form">
+  <Container>
+    <Row id="contact-row" >
+    <Col xs={12} md={12} sm={12} lg={12} xl={12} id="contact-header" style={{height: "50px"}}>
+    <h1 className="contact" style={{color: "white", position: "relative", bottom: "8px"}}>
      Contact
     </h1>
-    <hr id="line"/>
+    {/* <hr id="line"/> */}
       </Col>
     </Row>
 
     <Row >
     <Col xs={12} md={12} sm={12} lg={12} xl={12} id="email-header">
-    <h2 className="contact" style={{fontSize: "16px", marginTop: "-20px"}}>
+    <h2 className="contact" style={{fontSize: "16px", marginTop: "20px"}}>
       Message for: nick.guimarais@gmail.com
     </h2>
     
@@ -108,6 +108,7 @@ function ContactForm() {
     
   </Col>
   </Row>
+  </Container>
 
 </Form>
 

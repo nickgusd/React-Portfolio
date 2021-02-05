@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
+import "./style.css"
 
 
 
@@ -45,26 +46,29 @@ function rand() {
     };
   
     const body = (
-      <div style={modalStyle} className={classes.paper}>
-        <h2 id="simple-modal-title" style={{color: "black", fontSize: "18px"}}>{props.projects}</h2>
+      <div style={modalStyle} className={classes.paper} id="center-modal">
+        <h1 id="simple-modal-title" style={{color: "black", fontSize: "20px", textAlign: "center"}}>{props.projects}</h1>
         {/* <p id="simple-modal-description" style={{color: "black", fontSize: "12px"}}>
           Github Url: {props.github}
         </p> */}
-        <p id="simple-modal-description" style={{color: "black", fontSize: "12px"}}>
-          Github Url: {props.github}
+        <p style={{color: "black", fontSize: "12px"}}>{props.description}</p>
+        <p id="simple-modal-description" style={{color: "black", fontSize: "12px"}} href={props.github}>
+        Github Url: <a href={props.github}>{props.github}</a>
         </p>
-        <p style={{color: "black", fontSize: "12px"}}> Deployed App: {props.deployed}</p>
-        <button type="button" onClick={handleClose} style={{display: "block", margin: "0 auto"}}>
+        <p style={{color: "black", fontSize: "12px"}}>Deployed App:<a href={props.deployed}>{props.deployed}</a></p>
+        <button  id="close-button"type="button" onClick={handleClose} style={{display: "block", margin: "0 auto", marginTop: "20px"}}>
           Close
         </button>
       </div>
     );
   
+
     return (
       <div>
-        <button type="button" onClick={handleOpen} style={{display: "block", margin: "0 auto", fontSize: "16px"}}>
+        <button type="button" onClick={handleOpen}  className="project-button" style={{display: "block", margin: "0 auto", fontSize: "16px"}}>
           {props.projects}
         </button>
+
         <Modal
           open={open}
           onClose={handleClose}

@@ -1,0 +1,49 @@
+.project-button {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-radius: .3rem;
+    font-size: 20px !important;
+}
+
+#center-modal {
+    width: 450px !important;
+    border-radius: .3rem !important;
+    display: block;
+    margin: 0 auto;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+#simple-modal-description {
+    margin-bottom: 5px !important;
+}
+
+#simple-modal-title {
+    margin-bottom: 10px !important;
+    margin-top: 5px !important;
+}
+
+.project-button {
+    margin-bottom: 20px !important;
+    border: none;
+}
+
+
+.project-button:hover {
+    background-color:rgb(14, 23, 111);
+}
+
+.project-button:focus, .project-button:active {
+    background-color:transparent;
+    border-color: none;
+}
+
+
+#close-button {
+    background-color:rgb(14, 23, 111);
+    color: white;
+    border-radius: .3rem;
+    border-color: transparent;
+}
