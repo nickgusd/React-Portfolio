@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
   },
   expandOpen: {
     transform: 'rotate(180deg)',
+    // marginBottom: "-50px",
   },
   avatar: {
     backgroundColor: red[500],
@@ -47,26 +48,26 @@ export default function RecipeReviewCard(props) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
   const [imagelink, setLink] = React.useState([]);
-  let history = useHistory();
-
-
+  let expandCard;
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
   const handleImageLink = () => {
-    
-     console.log(props.deployed)
        setLink((imagelink.push(props.deployed)))
-       console.log(imagelink[0])
        const url = imagelink[0];
        window.open(url, '_blank')
-    
   }
 
+ if (expanded) {
+   expandCard = "575px"
+ } else {
+   expandCard = "450px"
+ }
+
   return (
-    <Card className={classes.root} id="card-container">
+    <Card className={classes.root} id="card-container" style={{height: expandCard}}>
       <CardHeader
         title={props.projects}
         style={{textAlign: "center"}}
@@ -74,7 +75,7 @@ export default function RecipeReviewCard(props) {
       <CardMedia
         className={classes.media}
         image={props.image} 
-        title="Paella dish"
+        title="image"
         onClick={handleImageLink}
       />
       <CardContent>
@@ -82,7 +83,7 @@ export default function RecipeReviewCard(props) {
           {props.description}
         </Typography>
       </CardContent>
-      <CardActions disableSpacing>
+      <CardActions disableSpacing className="arrow-container">
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
