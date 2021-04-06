@@ -3,7 +3,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PortfolioPage from "./pages/Portfolio";
 import Navbar from "./Navbar";
-import Projects from "./Portfolio/projects";
+
 
 class Portfolio extends Component {
   state = {

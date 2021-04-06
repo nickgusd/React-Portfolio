@@ -1,9 +1,8 @@
-import React from 'react';
 
-const projects= [
+
+const projects = [
 
     {
-
         project1: "Secure Travel App",
         project2: "Fitness Tracker",
         project3: "Note-Taker",
@@ -11,7 +10,7 @@ const projects= [
         project5: "Music eXchange",
         project6: "Google Book Search",
         project7: "VaxDash.us"
-    
+
     },
 
     {
@@ -26,7 +25,7 @@ const projects= [
     },
     {
         deployed1: "https://edwardreyes29.github.io/project-1/",
-        deployed2: "https://mighty-dawn-52724.herokuapp.com/" ,
+        deployed2: "https://mighty-dawn-52724.herokuapp.com/",
         deployed3: "https://protected-shore-03622.herokuapp.com/",
         deployed4: "https://vast-lowlands-43566.herokuapp.com/",
         deployed5: "https://musicexchangev2.herokuapp.com/",
@@ -34,7 +33,6 @@ const projects= [
         deployed7: "https://vaxdash.us/"
     },
     {
-
         description1: "A travel app that advises the user where they should travel based on Coronavirus risk recommendations, and provides the user with travel accommodation options.",
         description2: "This application has the ability to add new resistance workouts, new cardio workouts, and view the fitness dashboard that displays workout stats.",
         description3: "An application that has the ability to save, delete, and view old notes.",
@@ -43,8 +41,8 @@ const projects= [
         description6: "This application allows the user to search for a book with the Google Search API. The user can also view the book they searched for on Google Books, and the user can even save their favorite books to be stored in the database.",
         description7: "This platform allows users to make an informed decision about whether or not to get the COVID-19 vaccine, view the vaccination progress, determine vaccine eligibility in their state, and locate vaccine clinics."
     }
-    
+
 ]
- 
+
 
 export default projects; 

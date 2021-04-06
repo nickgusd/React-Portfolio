@@ -15,7 +15,6 @@ body {
 
 }
 
-
 .footer a {
     text-decoration: none !important;
     color: white !important;
@@ -24,48 +23,32 @@ body {
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-   
 }
-
-/* 
-footer a:active {
-    color: #70A288 !important;
-} */
 
 #linked-in {
     transform: scale(2) !important;
-    /* color: #0072b1; */
-    /* color:rgb(14, 23, 111); */
     color: white;
     margin-left: 100px;
 }
 
 #github {
     transform: scale(2) !important;
-    /* margin-left: 100px !important; */
-    /* color: black; */
-    /* color:rgb(14, 23, 111); */
     margin-right: 100px;
     color: white;
 }
 
 #facebook {
     transform: scale(2) !important;
-    /* margin-left: 200px !important; */
-    /* color: #3b5998; */
-    /* color:rgb(14, 23, 111); */
     color: white;
 }
 
 #linked-in:hover, #github:hover, #facebook:hover {
-   /* color:  #5FA8D3; */
     color:rgb(14, 23, 111);
 }
 
 .myemail {
    position: relative;
    top: 15px;
-   
 }
 
 

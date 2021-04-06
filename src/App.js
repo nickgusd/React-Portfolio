@@ -1,5 +1,4 @@
 import React from "react";
-// import Portfolio from "./components/PortfolioContainer";
 import Navbar from "./components/Navbar/index";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./components/pages/About";
@@ -7,8 +6,6 @@ import PortfolioPage from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer/index";
 
-
-// const App = () => <Portfolio />;
 function App() {
     return (
         <Router>

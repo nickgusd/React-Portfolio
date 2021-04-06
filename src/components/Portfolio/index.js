@@ -7,7 +7,6 @@ import Quiz from "../../assets/img/rsz_black-flat-screen-computer-monitor-171420
 import Tinder from "../../assets/img/rsz_business-code-coding-computer-270360.jpg"
 import Laptop from "../../assets/img/rsz_computer-desk-hand-laptop-374631.jpg"
 import Ipad from "../../assets/img/rsz_space-grey-ipad-air-with-graph-on-brown-wooden-table-187041.jpg"
-import SimpleModal from "../Modal/index";
 import Projects from "./projects";
 import "./style.css";
 import Card from "../Card/index"
