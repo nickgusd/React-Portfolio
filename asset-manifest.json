@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.1ffcbd01.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.e78416e8.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.e78416e8.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.5ac6c648.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.3ba0add8.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.3ba0add8.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.0ad08de7.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.0ad08de7.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/React-Portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.83137f0d.chunk.js": "/React-Portfolio/static/js/2.83137f0d.chunk.js",
-    "static/js/2.83137f0d.chunk.js.map": "/React-Portfolio/static/js/2.83137f0d.chunk.js.map",
+    "static/js/2.b771d89e.chunk.js": "/React-Portfolio/static/js/2.b771d89e.chunk.js",
+    "static/js/2.b771d89e.chunk.js.map": "/React-Portfolio/static/js/2.b771d89e.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.604432beb386100e91563ea930fa86c8.js": "/React-Portfolio/precache-manifest.604432beb386100e91563ea930fa86c8.js",
+    "precache-manifest.e75f890fffeb0cddc6631a1326ebb20a.js": "/React-Portfolio/precache-manifest.e75f890fffeb0cddc6631a1326ebb20a.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/React-Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.1ffcbd01.chunk.css.map": "/React-Portfolio/static/css/main.1ffcbd01.chunk.css.map",
-    "static/js/2.83137f0d.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.83137f0d.chunk.js.LICENSE.txt",
-    "static/media/IMG_7344.JPG": "/React-Portfolio/static/media/IMG_7344.bde6d177.JPG",
+    "static/css/main.5ac6c648.chunk.css.map": "/React-Portfolio/static/css/main.5ac6c648.chunk.css.map",
+    "static/js/2.b771d89e.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.b771d89e.chunk.js.LICENSE.txt",
     "static/media/LinkedinSoft.png": "/React-Portfolio/static/media/LinkedinSoft.53675a07.png",
     "static/media/rsz_analysis-blackboard-board-bubble-355952.JPG": "/React-Portfolio/static/media/rsz_analysis-blackboard-board-bubble-355952.7a93ce29.JPG",
     "static/media/rsz_apple-applications-apps-cell-phone-607812.jpg": "/React-Portfolio/static/media/rsz_apple-applications-apps-cell-phone-607812.b8c2f9b5.jpg",
@@ -26,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.0ad08de7.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.83137f0d.chunk.js",
-    "static/css/main.1ffcbd01.chunk.css",
-    "static/js/main.e78416e8.chunk.js"
+    "static/js/2.b771d89e.chunk.js",
+    "static/css/main.5ac6c648.chunk.css",
+    "static/js/main.3ba0add8.chunk.js"
   ]
 }
