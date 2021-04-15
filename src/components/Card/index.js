@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
 import Card from '@material-ui/core/Card';
@@ -43,31 +43,36 @@ export default function RecipeReviewCard(props) {
   const [imagelink, setLink] = React.useState([]);
   let expandCard;
 
+  useEffect(() => {
+    setLink(props.deployed)
+  }, [])
+
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
-  const handleImageLink = () => {
-       setLink((imagelink.push(props.deployed)))
-       const url = imagelink[0];
-       window.open(url, '_blank')
+  const handleImageLink = async () => {
+    if (imagelink) {
+      const url = imagelink
+      window.open(url, '_blank')
+    }
   }
 
- if (expanded) {
-   expandCard = "575px"
- } else {
-   expandCard = "450px"
- }
+  if (expanded) {
+    expandCard = "575px"
+  } else {
+    expandCard = "450px"
+  }
 
   return (
-    <Card className={classes.root} id="card-container" style={{height: expandCard}}>
+    <Card className={classes.root} id="card-container" style={{ height: expandCard }}>
       <CardHeader
         title={props.projects}
-        style={{textAlign: "center"}}
+        style={{ textAlign: "center" }}
       />
       <CardMedia
         className={classes.media}
-        image={props.image} 
+        image={props.image}
         title="image"
         onClick={handleImageLink}
       />
@@ -91,13 +96,13 @@ export default function RecipeReviewCard(props) {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <div>
-          <p style={{color: "black", fontSize: "16px", marginBottom: "0px"}}>Github:</p>
-          <a href={props.github} style={{fontSize: "14px"}} target="blank">{props.github}</a>
+            <p style={{ color: "black", fontSize: "16px", marginBottom: "0px" }}>Github:</p>
+            <a href={props.github} style={{ fontSize: "14px" }} target="blank">{props.github}</a>
           </div>
           <div>
-          <p style={{color: "black", fontSize: "16px", marginBottom: "0px"}}>Deployed:</p>
-           <a href={props.deployed} style={{fontSize: "14px"}} target="blank">{props.deployed}</a>
-           </div>
+            <p style={{ color: "black", fontSize: "16px", marginBottom: "0px" }}>Deployed:</p>
+            <a href={props.deployed} style={{ fontSize: "14px" }} target="blank">{props.deployed}</a>
+          </div>
         </CardContent>
       </Collapse>
     </Card>
